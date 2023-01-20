@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/loloplox/short-url-app/static/css/main.e6c13ad2.css",
+    "main.js": "/loloplox/short-url-app/static/js/main.18b74c85.js",
+    "index.html": "/loloplox/short-url-app/index.html",
+    "main.e6c13ad2.css.map": "/loloplox/short-url-app/static/css/main.e6c13ad2.css.map",
+    "main.18b74c85.js.map": "/loloplox/short-url-app/static/js/main.18b74c85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.18b74c85.js"
+  ]
+}

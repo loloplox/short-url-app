@@ -32,7 +32,7 @@ const theme = deepMerge(grommet,
 )
 
 function App() {
-    const [url, setUrl] = useState("")
+    const [url, setUrl] = useState("http://")
     const urlStore = useUrlStore(state => state.urls)
     const addUrlStore = useUrlStore(state => state.addUrl)
 
@@ -45,7 +45,8 @@ function App() {
         })
 
         addUrlStore(response.data)
-        console.log(urlStore)
+
+        setUrl("http://")
     }
 
     return (
